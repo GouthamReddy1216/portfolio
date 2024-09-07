@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Certificate from "./codevita_certificate.pdf";
+import cv from "./CV.pdf";
 function App() {
   return (
     <div className='App'>
@@ -10,7 +11,7 @@ function App() {
 
       <div className='links'>
       <div className='link'>
-          <a href={Certificate} download='Goutham_resume' target="_blank" rel="noopener noreferrer">Save this CV</a>
+          <a href={cv} download='Goutham_CV' target="_blank" rel="noopener noreferrer">Save this CV</a>
         </div>
         <div className='link'>
           <a href='https://github.com/GouthamReddy1216/' target="_blank" rel="noopener noreferrer">Github</a>
@@ -46,7 +47,7 @@ function App() {
         <h2>SKILLS</h2>
         <ul>
           <li><strong>Languages:</strong> C++, JavaScript, Python</li>
-          <li><strong>Technologies:</strong> React.Js, MySQL, Node.Js, AWS, MongoDB</li>
+          <li><strong>Technologies:</strong> React, MySQL, Node, AWS, MongoDB</li>
           <li><strong>Soft Skills:</strong> Problem-Solving, Communication, Adaptability, Teamwork</li>
         </ul>
       </div>
@@ -55,17 +56,17 @@ function App() {
         <h2>PROJECTS</h2>
 
         <div className='project'>
-          <h3>Movie Search webapp</h3>
-          <p><strong>Key Skills:</strong> MySQL, Express, React.JS, Node.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Project1</a>&ensp;<a href="https://github.com/GouthamReddy1216/practice" target="_blank" rel="noopener noreferrer">Github</a></p>
-          <p><strong>Objective:</strong> The main objective of the project is to develop.deploy a robust web app that utilizes the async nature of Javascript.</p>
-          <p>A simple web app developed using react,MySQL stack that used IMBD API to extract data about movies then display the related movies along with their respective links,  also MySQL is used to store the search data.</p>
+          <h3>My portfolio website</h3>
+          <p><strong>Key Skills:</strong> React.JS, HTML, CSS.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/prortfolio" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p><strong>Objective:</strong>Develop a portfolio website from scratch using HTML, CSS, React</p>
           <div className='project-end'></div>
         </div>
-
+        
         <div className='project'>
-          <h3>My portfolio website</h3>
-          <p><strong>Key Skills:</strong> React.JS, HTML, CSS.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Project1</a>&ensp;<a href="https://github.com/GouthamReddy1216/practice" target="_blank" rel="noopener noreferrer">Github</a></p>
-          <p><strong>Objective:</strong>Develop a portfolio website from scratch using HTML, CSS, React</p>
+          <h3>Movie Search webapp</h3>
+          <p><strong>Key Skills:</strong> MySQL, Express, React.JS, Node.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/practice" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p><strong>Objective:</strong> The main objective of the project is to develop.deploy a robust web app that utilizes the async nature of Javascript.</p>
+          <p>A simple web app developed using react,MySQL stack that used IMBD API to extract data about movies then display the related movies along with their respective links,  also MySQL is used to store the search data.</p>
           <div className='project-end'></div>
         </div>
 
@@ -94,7 +95,7 @@ function App() {
       <footer className='footer'>
         <p> <strong><s> &lt;/&gt; with ❤️ by Goutham</s></strong> </p>
         <p><strong> &lt;/&gt; with React by Goutham </strong></p>
-        <p>Last updated on Sept 2024 </p>
+        <p>Last updated on Aug 2024 </p>
         <p>© 2024</p>
       </footer>
 
