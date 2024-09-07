@@ -57,7 +57,7 @@ function App() {
 
         <div className='project'>
           <h3>My portfolio website</h3>
-          <p><strong>Key Skills:</strong> React.JS, HTML, CSS.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/prortfolio" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p><strong>Key Skills:</strong> React.JS, HTML, CSS.&emsp; <strong>Deployed project Link:</strong> <a href="https://portfolio-k4bw.onrender.com//" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/prortfolio" target="_blank" rel="noopener noreferrer">Github</a></p>
           <p><strong>Objective:</strong>Develop a portfolio website from scratch using HTML, CSS, React</p>
           <div className='project-end'></div>
         </div>
