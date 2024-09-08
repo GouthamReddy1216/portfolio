@@ -61,12 +61,28 @@ function App() {
           <p><strong>Objective:</strong>Develop a portfolio website from scratch using HTML, CSS, React</p>
           <div className='project-end'></div>
         </div>
-        
+
+        <div className='project'>
+          <h3>Sudoku Solver</h3>
+          <p><strong>Key Skills:</strong> React.JS, HTML, CSS.&emsp; <strong>Deployed project Link:</strong> <a href="https://sudoku-solver-iaj3.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/Sudoku-solver" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p><strong>Objective:</strong>The objective of this project to develop a website that solve sudoku puzzle while solving it gives the real time animation effects of backtracking, solving made from scratch using HTML,CSS, React</p>
+          <div className='project-end'></div>
+        </div>
+
+       
+
         <div className='project'>
           <h3>Movie Search webapp</h3>
           <p><strong>Key Skills:</strong> MySQL, Express, React.JS, Node.&emsp; <strong>Deployed project Link:</strong> <a href="https://practice-production-468d.up.railway.app/" target="_blank" rel="noopener noreferrer">Live</a>&ensp;<a href="https://github.com/GouthamReddy1216/practice" target="_blank" rel="noopener noreferrer">Github</a></p>
           <p><strong>Objective:</strong> The main objective of the project is to develop.deploy a robust web app that utilizes the async nature of Javascript.</p>
           <p>A simple web app developed using react,MySQL stack that used IMBD API to extract data about movies then display the related movies along with their respective links,  also MySQL is used to store the search data.</p>
+          <div className='project-end'></div>
+        </div> 
+        <div className='project'>
+          <h3>Twitter ETL pipeline</h3>
+          <p><strong>Key Skills: python, sql, s3, EC2.</strong></p>
+          <p><strong>Objective:</strong>The main objective of the project is to develop a robust ETL pipeline to extract twitter
+            data and store it in aws s3 stotrage .</p>
           <div className='project-end'></div>
         </div>
 
