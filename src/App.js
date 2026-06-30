@@ -47,7 +47,7 @@ function App() {
         <h2>SKILLS</h2>
         <ul>
           <li><strong>Languages:</strong> C++, JavaScript, Python</li>
-          <li><strong>Technologies:</strong> React, MySQL, Node, AWS, MongoDB</li>
+          <li><strong>Technologies:</strong> Snowflake, Databricks, PowerBi, Azure, React, MySQL, Node, AWS, MongoDB</li>
           <li><strong>Soft Skills:</strong> Problem-Solving, Communication, Adaptability, Teamwork</li>
         </ul>
       </div>
