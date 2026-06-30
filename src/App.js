@@ -1,19 +1,15 @@
 import React from 'react';
 import './App.css';
 import Certificate from "./codevita_certificate.pdf";
-import cv from "./CV.pdf";
 
 function App() {
   return (
     <div className='App'>
       <div className='title'>
-        <h1>Somu Goutham Reddy</h1>
+        <h1>Goutham Reddy Somu</h1>
       </div>
 
       <div className='links'>
-        <div className='link'>
-          <a href={cv} download='Goutham_CV' target="_blank" rel="noopener noreferrer">Save this CV</a>
-        </div>
         <div className='link'>
           <a href='https://github.com/GouthamReddy1216/' target="_blank" rel="noopener noreferrer">Github</a>
         </div>
@@ -32,7 +28,7 @@ function App() {
         <h2>WORK EXPERIENCE</h2>
         <div className='item'>
           <h3>Hakkōda (An IBM Company)</h3>
-          <p><strong>Nov 2024 - Present</strong> &emsp; <em>Associate Consultant Data Engineer</em></p>
+          <p><strong>Nov 2024 - Present</strong> &emsp; <em>Consultant-1 Data Engineer</em></p>
           <ul>
             <li>Designed and implemented scalable data pipelines to migrate high-volume SAP data into Snowflake, optimizing data reliability, integrity, and query performance.</li>
             <li>Built and optimized transformation workflows using advanced SQL and Snowflake architecture best practices to support downstream analytics and reporting use cases.</li>
@@ -54,7 +50,7 @@ function App() {
           <p><strong>2019 - 2020</strong> &emsp; Class 12th at <em>Sri Chaitanya Junior College, Vijayawada. BIE, AP</em> <span>(922/1000)</span></p>
         </div>
         <div className='item'>
-          <p><strong>2018</strong> &emsp; Class 10th at <em>KKR Gowtham School, Guntur. BSE AP</em> <span>(GPA: 10/10)</span></p>
+          <p><strong>2018</strong> &emsp; Class 10th at <em>Dr. KKR Gowtham School, Guntur. BSE AP</em> <span>(GPA: 10/10)</span></p>
         </div>
       </div>
 
@@ -118,13 +114,13 @@ function App() {
         
         <h3>Professional Certifications</h3>
         <ul>
-          <li>Databricks Data Engineer Professional Certificate</li>
-          <li>Databricks Data Engineer Certificate</li>
-          <li>Snowflake Advanced Data Engineer Certification Certificate</li>
-          <li>Snowflake Certified Certificate</li>
+          <li>Databricks Data Engineer Professional <a href='https://credentials.databricks.com/a763accd-97c0-4217-8d78-186243dcfce3#acc.w8f2rqOx' target="_blank" rel="noopener noreferrer">Certificate</a></li>
+          <li>Databricks Data Engineer Asscociate <a href='https://credentials.databricks.com/dfc098a9-25e1-478a-8857-a981b14e3cf1#acc.uKcNkZme' target="_blank" rel="noopener noreferrer">Certificate</a></li>
+          <li>Snowflake Advanced Data Engineer  <a href='https://achieve.snowflake.com/ec991e9e-a638-4823-90f4-590385b8bbac#acc.FAWBHCi1' target="_blank" rel="noopener noreferrer">Certificate</a></li>
+          <li>Snowpro core  <a href='https://achieve.snowflake.com/d5f5d3c6-b74a-4a5a-a7d0-21189644da12#acc.2kAZuVev' target="_blank" rel="noopener noreferrer">Certificate</a></li>
         </ul>
 
-        <h3>Competitive Programming & Honors</h3>
+        <h3>Competitive Programming</h3>
         <ul>
           <li>Achieved a global rank of 547 in <strong>TCS Codevita</strong> Season 11, showcasing strong problem-solving skills. &ensp; 
             <a href={Certificate} target="_blank" rel="noopener noreferrer">View Certificate</a> &ensp;
